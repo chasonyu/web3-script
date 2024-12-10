@@ -4,7 +4,7 @@
 sudo apt update && sudo apt upgrade -y
 
 # 安装必要的软件包
-sudo apt install build-essential pkg-config libssl-dev git-all protobuf-compiler -y
+sudo apt install build-essential pkg-config libssl-dev git-all protobuf-compiler cpulimit -y
 
 # 安装 Rust
 curl https://sh.rustup.rs -sSf | sh -s -- -y
