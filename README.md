@@ -10,3 +10,9 @@ oasisai/Distribute.ai
 ```
 wget -O oasisai.sh https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/oasisai.sh && sed -i 's/\r$//' oasisai.sh && chmod +x oasisai.sh && ./oasisai.sh
 ```
+
+layeredge
+```
+wget -O layeredge.sh https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/layeredge.sh && sed -i 's/\r$//' layeredge.sh && chmod +x layeredge.sh && ./layeredge.sh
+```
+
