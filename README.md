@@ -16,3 +16,8 @@ layeredge
 wget -O layeredge.sh https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/layeredge.sh && sed -i 's/\r$//' layeredge.sh && chmod +x layeredge.sh && ./layeredge.sh
 ```
 
+humanity
+```
+wget -O humanity.sh https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/humanity.sh && sed -i 's/\r$//' humanity.sh && chmod +x humanity.sh && ./humanity.sh
+```
+
