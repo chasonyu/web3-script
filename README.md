@@ -21,3 +21,8 @@ humanity
 wget -O humanity.sh https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/humanity.sh && sed -i 's/\r$//' humanity.sh && chmod +x humanity.sh && ./humanity.sh
 ```
 
+solpot
+```
+wget -O solpot.sh https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/solpot.sh && sed -i 's/\r$//' solpot.sh && chmod +x solpot.sh && ./solpot.sh
+```
+
