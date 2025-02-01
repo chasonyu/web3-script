@@ -58,7 +58,9 @@ fi
 
 # 创建并进入 tmux 会话
 echo "创建 tmux 会话 $TMUX_SESSION..."
-tmux new-session -d -s "$TMUX_SESSION" "node main.js"
+tmux new-session -d -s "$TMUX_SESSION" "bash"  # 启动一个 bash shell
+tmux send-keys -t "$TMUX_SESSION" "node main.js" C-m  # 在 bash 中运行 node main.js
+
 if [ $? -ne 0 ]; then
   echo "创建 tmux 会话失败，请确保已安装 tmux。"
   exit 1
