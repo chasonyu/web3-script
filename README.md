@@ -15,7 +15,7 @@ layeredge
 ```
 wget -O layeredge.sh https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/layeredge.sh && sed -i 's/\r$//' layeredge.sh && chmod +x layeredge.sh && ./layeredge.sh
 ```
-python
+layeredge-python
 ```
 wget -O layeredge-python.sh https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/layeredge-python.sh && sed -i 's/\r$//' layeredge-python.sh.sh && chmod +x layeredge-python.sh.sh && ./layeredge-python.sh.sh
 ```
