@@ -30,3 +30,7 @@ solpot
 wget -O solpot.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/solpot.sh && sed -i 's/\r$//' solpot.sh && chmod +x solpot.sh && ./solpot.sh
 ```
 
+teneo
+```
+wget -O teneo.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/teneo.sh && sed -i 's/\r$//' teneo.sh && chmod +x teneo.sh && ./teneo.sh
+```
