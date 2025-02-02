@@ -5,14 +5,28 @@ REPO_URL="https://github.com/vonssy/Teneo-BOT.git"
 REPO_DIR="Teneo-BOT"
 TMUX_SESSION="teneo"
 
-# 检查仓库是否已存在
+# 检查是否需要清理
+CLEANUP_NEEDED=false
 if [ -d "$REPO_DIR" ]; then
   echo "检测到目录 $REPO_DIR 已存在。"
-  read -p "是否删除旧的仓库并继续？(y/n): " DELETE_OLD
+  CLEANUP_NEEDED=true
+fi
+if tmux has-session -t "$TMUX_SESSION" 2>/dev/null; then
+  echo "检测到 tmux 会话 $TMUX_SESSION 已存在。"
+  CLEANUP_NEEDED=true
+fi
+
+# 如果需要清理，提示用户
+if $CLEANUP_NEEDED; then
+  read -p "是否删除旧的仓库和 tmux 会话并继续？(y/n): " DELETE_OLD
   if [[ "$DELETE_OLD" == "y" || "$DELETE_OLD" == "Y" ]]; then
-    echo "删除旧的仓库..."
-    rm -rf "$REPO_DIR"
-    # 检查并删除 tmux 会话
+    echo "正在清理..."
+    # 删除仓库目录
+    if [ -d "$REPO_DIR" ]; then
+      echo "删除旧的仓库..."
+      rm -rf "$REPO_DIR"
+    fi
+    # 删除 tmux 会话
     if tmux has-session -t "$TMUX_SESSION" 2>/dev/null; then
       echo "删除 tmux 会话 $TMUX_SESSION..."
       tmux kill-session -t "$TMUX_SESSION"
@@ -82,7 +96,7 @@ fi
 echo "创建 tmux 会话 $TMUX_SESSION..."
 tmux new-session -d -s "$TMUX_SESSION" "source venv/bin/activate && bash"
 tmux send-keys -t "$TMUX_SESSION" "cd $REPO_DIR" C-m
-tmux send-keys -t "$TENEO_SESSION" "python bot.py" C-m
+tmux send-keys -t "$TMUX_SESSION" "python bot.py" C-m
 
 echo "脚本执行完成！"
 echo "可以使用以下命令连接到 tmux 会话："
