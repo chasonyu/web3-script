@@ -69,7 +69,7 @@ fi
 echo "创建 tmux 会话 $TMUX_SESSION..."
 tmux new-session -d -s "$TMUX_SESSION" "source venv/bin/activate && bash"
 tmux send-keys -t "$TMUX_SESSION" "cd $REPO_DIR" C-m
-tmux send-keys -t "$TMUX_SESSION" "clear" C-m
+tmux send-keys -t "$TMUX_SESSION" "python bot.py" C-m
 
 echo "脚本执行完成！"
 echo "可以使用以下命令连接到 tmux 会话："
