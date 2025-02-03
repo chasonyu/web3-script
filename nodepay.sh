@@ -50,7 +50,7 @@ cd "$REPO_DIR" || { echo "进入目录失败，请检查路径。"; exit 1; }
 
 # 清理 token.txt 文件
 echo "清理 token.txt 文件..."
-> token.txt
+> tokens.txt
 
 # 交互式输入 token
 echo "请输入 token（每行一个），输入完成后按回车结束："
@@ -59,7 +59,7 @@ while true; do
   if [ -z "$TOKEN" ]; then
     break
   fi
-  echo "$TOKEN" >> token.txt
+  echo "$TOKEN" >> tokens.txt
 done
 
 # 创建虚拟环境
