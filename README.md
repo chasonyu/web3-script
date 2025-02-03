@@ -39,3 +39,8 @@ nodepay
 ```
 wget -O nodepay.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/nodepay.sh && sed -i 's/\r$//' nodepay.sh && chmod +x nodepay.sh && ./nodepay.sh
 ```
+
+openloop
+```
+wget -O openloop.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/openloop.sh && sed -i 's/\r$//' openloop.sh && chmod +x openloop.sh && ./openloop.sh
+```
