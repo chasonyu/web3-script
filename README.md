@@ -44,3 +44,8 @@ openloop
 ```
 wget -O openloop.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/openloop.sh && sed -i 's/\r$//' openloop.sh && chmod +x openloop.sh && ./openloop.sh
 ```
+
+depined
+```
+wget -O depined.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/depined.sh && sed -i 's/\r$//' depined.sh && chmod +x depined.sh && ./depined.sh
+```
