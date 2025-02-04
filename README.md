@@ -49,3 +49,8 @@ depined
 ```
 wget -O depined.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/depined.sh && sed -i 's/\r$//' depined.sh && chmod +x depined.sh && ./depined.sh
 ```
+
+streamai
+```
+wget -O streamai.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/streamai.sh && sed -i 's/\r$//' streamai.sh && chmod +x streamai.sh && ./streamai.sh
+```
