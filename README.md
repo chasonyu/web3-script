@@ -54,3 +54,7 @@ streamai
 ```
 wget -O streamai.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/streamai.sh && sed -i 's/\r$//' streamai.sh && chmod +x streamai.sh && ./streamai.sh
 ```
+streamai_ahlulmukh
+```
+wget -O streamai_ahlulmukh.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/streamai_ahlulmukh.sh && sed -i 's/\r$//' streamai_ahlulmukh.sh && chmod +x streamai_ahlulmukh.sh && ./streamai_ahlulmukh.sh
+```
