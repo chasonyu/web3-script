@@ -58,3 +58,9 @@ streamai_ahlulmukh
 ```
 wget -O streamai_ahlulmukh.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/streamai_ahlulmukh.sh && sed -i 's/\r$//' streamai_ahlulmukh.sh && chmod +x streamai_ahlulmukh.sh && ./streamai_ahlulmukh.sh
 ```
+
+
+bless
+```
+wget -O bless.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/bless.sh && sed -i 's/\r$//' bless.sh && chmod +x bless.sh && ./bless.sh
+```
