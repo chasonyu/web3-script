@@ -74,3 +74,8 @@ nodego
 ```
 wget -O nodego.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/nodego.sh && sed -i 's/\r$//' nodego.sh && chmod +x nodego.sh && ./nodego.sh
 ```
+
+nexus2
+```
+wget -O nexus2.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/nexus2.sh && sed -i 's/\r$//' nexus2.sh && chmod +x nexus2.sh && ./nexus2.sh
+```
