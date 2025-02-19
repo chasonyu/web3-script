@@ -64,3 +64,8 @@ bless
 ```
 wget -O bless.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/bless.sh && sed -i 's/\r$//' bless.sh && chmod +x bless.sh && ./bless.sh
 ```
+
+xos
+```
+wget -O xos.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/xos.sh && sed -i 's/\r$//' xos.sh && chmod +x xos.sh && ./xos.sh
+```
