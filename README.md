@@ -69,3 +69,8 @@ xos
 ```
 wget -O xos.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/xos.sh && sed -i 's/\r$//' xos.sh && chmod +x xos.sh && ./xos.sh
 ```
+
+nodego
+```
+wget -O nodego.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/blob/main/scripts/nodego.sh && sed -i 's/\r$//' nodego.sh && chmod +x nodego.sh && ./nodego.sh
+```
