@@ -72,5 +72,5 @@ wget -O xos.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script
 
 nodego
 ```
-wget -O nodego.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/blob/main/scripts/nodego.sh && sed -i 's/\r$//' nodego.sh && chmod +x nodego.sh && ./nodego.sh
+wget -O nodego.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/nodego.sh && sed -i 's/\r$//' nodego.sh && chmod +x nodego.sh && ./nodego.sh
 ```
