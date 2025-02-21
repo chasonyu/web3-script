@@ -36,3 +36,6 @@ done
 " C-m
 
 echo "Script is running in tmux session: $SESSION_NAME"
+echo "脚本执行完成！"
+echo "可以使用以下命令连接到 tmux 会话："
+echo "tmux attach-session -t $SESSION_NAME"
