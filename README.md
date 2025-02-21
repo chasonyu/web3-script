@@ -79,3 +79,8 @@ nexus2
 ```
 wget -O nexus2.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/nexus2.sh && sed -i 's/\r$//' nexus2.sh && chmod +x nexus2.sh && ./nexus2.sh
 ```
+
+limitnexus
+```
+wget -O limitnexus.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/limitnexus.sh && sed -i 's/\r$//' limitnexus.sh && chmod +x limitnexus.sh && ./limitnexus.sh
+```
