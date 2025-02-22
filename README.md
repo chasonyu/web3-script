@@ -84,3 +84,8 @@ limitnexus
 ```
 wget -O limitnexus.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/limitnexus.sh && sed -i 's/\r$//' limitnexus.sh && chmod +x limitnexus.sh && ./limitnexus.sh
 ```
+
+sparkchain
+```
+wget -O sparkchain.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/sparkchain.sh && sed -i 's/\r$//' sparkchain.sh && chmod +x sparkchain.sh && ./sparkchain.sh
+```
