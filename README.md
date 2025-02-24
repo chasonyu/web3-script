@@ -89,3 +89,8 @@ sparkchain
 ```
 wget -O sparkchain.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/sparkchain.sh && sed -i 's/\r$//' sparkchain.sh && chmod +x sparkchain.sh && ./sparkchain.sh
 ```
+
+haha
+```
+wget -O haha.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/haha.sh && sed -i 's/\r$//' haha.sh && chmod +x haha.sh && ./haha.sh
+```
