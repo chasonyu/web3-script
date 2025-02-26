@@ -94,3 +94,8 @@ haha
 ```
 wget -O haha.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/haha.sh && sed -i 's/\r$//' haha.sh && chmod +x haha.sh && ./haha.sh
 ```
+
+gokiteai
+```
+wget -O gokiteai.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/gokiteai.sh && sed -i 's/\r$//' gokiteai.sh && chmod +x gokiteai.sh && ./gokiteai.sh
+```
