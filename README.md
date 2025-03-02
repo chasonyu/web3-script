@@ -99,3 +99,8 @@ gokiteai
 ```
 wget -O gokiteai.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/gokiteai.sh && sed -i 's/\r$//' gokiteai.sh && chmod +x gokiteai.sh && ./gokiteai.sh
 ```
+
+taker
+```
+wget -O taker.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/taker.sh && sed -i 's/\r$//' taker.sh && chmod +x taker.sh && ./taker.sh
+```
