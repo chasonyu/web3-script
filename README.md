@@ -104,3 +104,8 @@ taker
 ```
 wget -O taker.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/taker.sh && sed -i 's/\r$//' taker.sh && chmod +x taker.sh && ./taker.sh
 ```
+
+stork
+```
+wget -O stork.sh --no-cache https://raw.githubusercontent.com/chasonyu/web3-script/refs/heads/main/scripts/stork.sh && sed -i 's/\r$//' stork.sh && chmod +x stork.sh && ./stork.sh
+```
