@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 仓库信息
-REPO_URL="https://github.com/vonssy/Stork-BOT.git"
+REPO_URL="https://github.com/chasonyu/Stork-BOT.git"
 REPO_DIR="Stork-BOT"
 TMUX_SESSION="stork"
 
