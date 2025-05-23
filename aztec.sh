@@ -218,7 +218,7 @@ services:
   aztec-sequencer:
     container_name: aztec-sequencer
     network_mode: host
-    image: aztecprotocol/alpha-testnet
+    image: aztecprotocol/aztec:alpha-testnet
     restart: unless-stopped
     environment:
       - ETHEREUM_HOSTS=\${ETHEREUM_HOSTS}
